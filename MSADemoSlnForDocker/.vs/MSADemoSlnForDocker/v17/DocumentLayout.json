@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Git Repos\\Docker\\MSADamos\\MSADemoSlnForDocker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\git repos\\docker\\msadamos\\msademoslnfordocker\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Git Repos\\Docker\\MSADamos\\MSADemoSlnForDocker\\Jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:Jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -31,12 +35,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Git Repos\\Docker\\MSADamos\\MSADemoSlnForDocker\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Git Repos\\Docker\\MSADamos\\MSADemoSlnForDocker\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwBcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-10-09T14:02:39.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Jenkinsfile",
               "DocumentMoniker": "C:\\Git Repos\\Docker\\MSADamos\\MSADemoSlnForDocker\\Jenkinsfile",
               "RelativeDocumentMoniker": "Jenkinsfile",
               "ToolTip": "C:\\Git Repos\\Docker\\MSADamos\\MSADemoSlnForDocker\\Jenkinsfile",
               "RelativeToolTip": "Jenkinsfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-10-09T07:09:56.017Z",
               "EditorCaption": ""

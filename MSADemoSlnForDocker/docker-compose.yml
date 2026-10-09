@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: CatalogAPI/Dockerfile
     ports:
-      - "5139:8080"
+      - "5151:8080"
 
   orderapi:
     image: ${DOCKER_REGISTRY-}orderapi
@@ -15,7 +15,7 @@ services:
       context: .
       dockerfile: OrderAPI/Dockerfile
     ports:
-      - "5140:8080"
+      - "5152:8080"
     environment:
       - Services__CatalogUrl=http://catalogapi:8080
     depends_on:
@@ -27,7 +27,7 @@ services:
       context: .
       dockerfile: CatalogWebUI/Dockerfile
     ports:
-      - "5050:80"
+      - "5053:80"
     depends_on:
       - catalogapi
 

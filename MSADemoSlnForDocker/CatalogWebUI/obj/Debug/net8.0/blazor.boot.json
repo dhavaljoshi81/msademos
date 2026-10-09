@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CatalogWebUI",
   "resources": {
-    "hash": "sha256-8tQphTXWK0khAzIm3Qost1hMX3hCwkB39v8ex53spNs=",
+    "hash": "sha256-8NVg9H/NCH6iK8OM7HCUOhG0gnfqEYNowxwqHtRU+Bc=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-dexsp+9ih2C28zVhNnPXUbkz2QCq7lHpkyDcmaLl7NQ="
     },
@@ -209,10 +209,10 @@
       "mscorlib.wasm": "sha256-pP80UGziulDYhvVdeUaGEq9FlrHQDQmnCqVvx1FJZis=",
       "netstandard.wasm": "sha256-ARMsMyhWuSDjvzisfZbnEptnxh8Vh7VpHPhuT6iazy0=",
       "System.Private.CoreLib.wasm": "sha256-+28m4yuZsdz9ij1sJHvNH896fSI8gXgrQ9bhGO76Qqo=",
-      "CatalogWebUI.wasm": "sha256-UVtEOso07gd5rPol5veuuzUC7YRNUeNa1wtGKbRPU2A="
+      "CatalogWebUI.wasm": "sha256-8uVQ44Fc2Ps1s+Ha0YJ4NKLMtQt1mH6R7AL9nH9JVQQ="
     },
     "pdb": {
-      "CatalogWebUI.pdb": "sha256-dP0KHd4M8kcLtF1pg9Gw4+ASNi6c2+CHsxLezNkbQ+I="
+      "CatalogWebUI.pdb": "sha256-z7jwZ8s9+90yuD/AYVpuPK8/GlQXzmHY0u2KEd34Xl0="
     }
   },
   "cacheBootResources": true,
