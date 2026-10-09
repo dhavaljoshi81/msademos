@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatalogWebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa1ed7c14bc05eeb1adedb32535806fcbb414fae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66926f5c5051aab79165e9e34c08dd10dbef2803")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatalogWebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatalogWebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

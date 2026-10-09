@@ -2061,9 +2061,6 @@ C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\c
 C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\compressed\zlepnrr4pf-tptq2av103.gz
 C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\compressed\29krrt8tv4-lfu7j35m59.gz
 C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\compressed\3m0mi02lhn-oyz0vx2fzb.gz
-C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\compressed\xbevxcovv9-yk822vrin5.gz
-C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\compressed\7cdwq8gt2h-n6qx2di00f.gz
-C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\compressed\76hq4vqxfk-wxgzcwyw3x.gz
 C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\staticwebassets.development.json
@@ -2074,3 +2071,6 @@ C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\C
 C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\refint\CatalogWebUI.dll
 C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\CatalogWebUI.pdb
 C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\ref\CatalogWebUI.dll
+C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\compressed\xbevxcovv9-xybmbu7hyq.gz
+C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\compressed\7cdwq8gt2h-mgcvepqgis.gz
+C:\Git Repos\Docker\MSADamos\MSADemoSlnForDocker\CatalogWebUI\obj\Debug\net8.0\compressed\76hq4vqxfk-zo817d7a9q.gz
