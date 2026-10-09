@@ -14,25 +14,33 @@ pipeline {
 
         stage('Clean Environment') {
             steps {
-                bat 'docker compose down --remove-orphans'
+                dir('MSADemoSlnForDocker') {
+                    bat 'docker compose down --remove-orphans'
+                }
             }
         }
 
         stage('Build Docker Images') {
             steps {
-                bat 'docker compose build --no-cache'
+                dir('MSADemoSlnForDocker') {
+                    bat 'docker compose build --no-cache'
+                }
             }
         }
 
         stage('Deploy Containers') {
             steps {
-                bat 'docker compose up -d'
+                dir('MSADemoSlnForDocker') {
+                    bat 'docker compose up -d'
+                }
             }
         }
 
         stage('Verify Running Stack') {
             steps {
-                bat 'docker compose ps'
+                dir('MSADemoSlnForDocker') {
+                    bat 'docker compose ps'
+                }
             }
         }
     }
@@ -40,7 +48,9 @@ pipeline {
     post {
         failure {
             echo 'Deployment failed! Fetching recent container logs...'
-            bat 'docker compose logs --tail=50'
+            dir('MSADemoSlnForDocker') {
+                bat 'docker compose logs --tail=50'
+            }
         }
         always {
             cleanWs()
