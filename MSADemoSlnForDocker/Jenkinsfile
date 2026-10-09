@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         COMPOSE_PROJECT_NAME = 'msademoslnfordocker'
+        DOCKER_HOST = 'tcp://localhost:2375'
     }
 
     stages {
