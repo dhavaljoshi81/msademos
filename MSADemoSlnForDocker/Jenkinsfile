@@ -1,0 +1,49 @@
+pipeline {
+    agent any
+
+    environment {
+        COMPOSE_PROJECT_NAME = 'msademoslnfordocker'
+    }
+
+    stages {
+        stage('Checkout Source') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Clean Environment') {
+            steps {
+                bat 'docker compose down --remove-orphans'
+            }
+        }
+
+        stage('Build Docker Images') {
+            steps {
+                bat 'docker compose build --no-cache'
+            }
+        }
+
+        stage('Deploy Containers') {
+            steps {
+                bat 'docker compose up -d'
+            }
+        }
+
+        stage('Verify Running Stack') {
+            steps {
+                bat 'docker compose ps'
+            }
+        }
+    }
+
+    post {
+        failure {
+            echo 'Deployment failed! Fetching recent container logs...'
+            bat 'docker compose logs --tail=50'
+        }
+        always {
+            cleanWs()
+        }
+    }
+}

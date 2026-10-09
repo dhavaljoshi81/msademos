@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  catalogapi:
+    image: ${DOCKER_REGISTRY-}catalogapi
+    build:
+      context: .
+      dockerfile: CatalogAPI/Dockerfile
+    ports:
+      - "5139:8080"
+
+  orderapi:
+    image: ${DOCKER_REGISTRY-}orderapi
+    build:
+      context: .
+      dockerfile: OrderAPI/Dockerfile
+    ports:
+      - "5140:8080"
+    environment:
+      - Services__CatalogUrl=http://catalogapi:8080
+    depends_on:
+      - catalogapi
+
+  catalogwebui:
+    image: ${DOCKER_REGISTRY-}catalogwebui
+    build:
+      context: .
+      dockerfile: CatalogWebUI/Dockerfile
+    ports:
+      - "5050:80"
+    depends_on:
+      - catalogapi
+
+# services:
+#   catalogapi:
+#     image: ${DOCKER_REGISTRY-}catalogapi
+#     build:
+#       context: CatalogAPI
+#       dockerfile: Dockerfile
